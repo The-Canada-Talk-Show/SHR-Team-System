@@ -1,0 +1,10 @@
+User = "canaada1234" -- Change This
+
+    if game.players.localplayer.name == User then
+        SendMessage:FireAllClients({
+      Text = “User .. " has been ranked to SHR”; --The message to be printed (Required)
+      Color = Color3.fromRGB(0,255,215); --The colour of the output text (Optional, will default to a white-ish colour)
+      Font = Enum.Font.SourceSans; --The font of the message (Optional, will default to SourceSans)
+      FontSize = Enum.FontSize.Size18; --The size of the message (Optional, will defualt to Size18)
+   })
+    end
